@@ -3,10 +3,10 @@ cask "wheelwizard" do
   sha256 arm:   "PLACEHOLDER_SHA256_ARM64",
          intel: "PLACEHOLDER_SHA256_INTEL"
 
-  url "https://github.com/TeamWheelWizard/WheelWizard/releases/download/v#{version}/WheelWizard-macOS#{arch == :arm64 ? "arm64" : "intel"}.zip"
+  url "https://github.com/gdmagana/WheelWizard/releases/download/v#{version}/WheelWizard-macOS#{arch == :arm64 ? "arm64" : "intel"}.zip"
   name "Wheel Wizard"
   desc "Mario Kart Mod Manager & Retro Rewind Auto Updater"
-  homepage "https://github.com/TeamWheelWizard/WheelWizard"
+  homepage "https://github.com/gdmagana/WheelWizard"
 
   livecheck do
     url :url
