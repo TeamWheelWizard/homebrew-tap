@@ -1,7 +1,7 @@
 cask "wheelwizard" do
   version "2.4.10"
-  sha256 arm:   "placeholder_sha256_arm64",
-         intel: "placeholder_sha256_intel"
+  sha256 arm:   "REPLACE_ME_ARM64",
+         intel: "REPLACE_ME_INTEL"
 
   on_arm do
     url "https://github.com/TeamWheelWizard/WheelWizard/releases/download/v#{version}/WheelWizard-macOSarm64.zip"
