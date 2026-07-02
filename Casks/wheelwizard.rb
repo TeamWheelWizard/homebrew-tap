@@ -1,7 +1,7 @@
 cask "wheelwizard" do
   version "2.4.10"
-  sha256 arm:   "35a7cd16e7906f4b9760b851875591a691dc431f370f4ada76100754a528fe17",
-         intel: "b7ccea562cd094a794a0966a54b5fe8eb4884605a9f1e4761ea08a0fa23ee3e7"
+  sha256 arm:   "c1da07c244b542bb0ff05a4c209630531b0737ffe56fbee4e0f82058eae6468b",
+         intel: "41c8010428ff62250264dbfd3da7f0e01166c398129958278594362fc85ffc98"
 
   on_arm do
     url "https://github.com/TeamWheelWizard/WheelWizard/releases/download/v#{version}/WheelWizard-macOSarm64.zip"
