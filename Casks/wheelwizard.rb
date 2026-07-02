@@ -1,5 +1,5 @@
 cask "wheelwizard" do
-  version "4"
+  version "2.4.10"
   sha256 arm:   "35a7cd16e7906f4b9760b851875591a691dc431f370f4ada76100754a528fe17",
          intel: "b7ccea562cd094a794a0966a54b5fe8eb4884605a9f1e4761ea08a0fa23ee3e7"
 
